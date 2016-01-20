@@ -11,28 +11,30 @@
 #import <UIKit/UIKit.h>
 
 
-@interface KIFBootcampTests : XCTestCase
+@interface KIFBootcampTests : KIFTestCase
 
 @end
 
 @implementation KIFBootcampTests
 
-- (void)setUp {
-    [super setUp];
-    // Put setup code here. This method is called before the invocation of each test method in the class.
+/*- (void)setUp {
+[   super setUp];
+    //Put setup code here. This method is called before the invocation of each test method in the class.
 }
 
 - (void)tearDown {
-    // Put teardown code here. This method is called after the invocation of each test method in the class.
+    //Put teardown code here. This method is called after the invocation of each test method in the class.
     [super tearDown];
-}
+}*/
 
 
+
+#pragma mark - Task #0: Setup
 - (void)testCase00 {
-    [tester waitForTimeInterval:5];
+    [tester waitForTimeInterval:1];
 }
 
-
+#pragma mark - Task #1: Exploring the KIF API
 - (void)testCase01 {
     
     [tester waitForTappableViewWithAccessibilityLabel:@"Gordon Krull"];
@@ -53,7 +55,7 @@
     [tester tapViewWithAccessibilityLabel:@"ETT Pivots"];
 }
 
-
+#pragma mark - Task #2: Adding accessibility labels
 - (void)testCase02{
     //add labels in TableViewController and DetailsViewCOntroller
     
@@ -70,6 +72,45 @@
         [tester tapViewWithAccessibilityLabel:@"ETT Pivots"];
     }
 }
+
+#pragma mark - Task #3: Before and After your tests
+/* Test case 3 require to experiment with beforeEach, beforeAll, afterEach, afterAll , initilized the function anywhere and will effect all other tests.
+ */
+
+- (void)beforeAll {
+    [super setUp];
+    [tester waitForTimeInterval:3];
+    NSLog(@"Start of the test");
+}
+
+- (void)beforeEach {
+    NSLog(@"Test of before Each");
+}
+
+- (void)afterEach {
+    NSLog(@"Test of after Each");
+}
+
+- (void)afterAll {
+    [super tearDown];
+    [tester waitForTimeInterval:3];
+    NSLog(@"End of the test");
+}
+
+- (void)testCase03_1{
+    [tester tapViewWithAccessibilityLabel:@"Gordon Krull"];
+    [tester tapViewWithAccessibilityLabel:@"ETT Pivots"];
+}
+
+- (void)testCase03_2{
+    [tester tapViewWithAccessibilityLabel:@"Christopher Wong"];
+    [tester tapViewWithAccessibilityLabel:@"ETT Pivots"];
+}
+
+
+    
+
+
 
 
 
