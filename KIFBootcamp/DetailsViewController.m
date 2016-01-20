@@ -34,10 +34,17 @@
     [super viewDidLoad];
     
     self.nameLabel.text = self.pivot.fullName;
+    //self.nameLabel.accessibilityLabel = @"New Lable";
     self.jobLabel.text = self.pivot.jobTitle;
     self.projectsLabel.text = [NSString stringWithFormat:@"%@", self.pivot.projectsLeading];
     self.submitButton.layer.cornerRadius = 3;
     // Do any additional setup after loading the view from its nib.
+    
+    // New Change    ***************************************************************************************************
+    self.commentField.text = @"Please enter your comments";
+    self.commentField.clearsOnBeginEditing = 1;
+    self.commentField.accessibilityLabel = @"Comment Field";
+    
 }
 
 - (void)didReceiveMemoryWarning {
@@ -46,14 +53,14 @@
 }
 
 /*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
+ #pragma mark - Navigation
+ 
+ // In a storyboard-based application, you will often want to do a little preparation before navigation
+ - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+ // Get the new view controller using [segue destinationViewController].
+ // Pass the selected object to the new view controller.
+ }
+ */
 
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
     [self.commentField resignFirstResponder];

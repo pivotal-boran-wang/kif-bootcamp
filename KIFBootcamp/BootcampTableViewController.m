@@ -25,6 +25,11 @@
     if (self) {
         UINavigationItem *navItem = self.navigationItem;
         navItem.title = @"ETT Pivots";
+        //   change *********************************************
+        self.accessibilityLabel = @"ETT Pivots";
+        self.tableView.accessibilityIdentifier = @"table identifier";
+        self.tableView.accessibilityLabel = @"table label";
+        
     }
     return self;
 }
@@ -139,7 +144,7 @@
 
 #pragma mark - Parse Data
 
-- (Pivot *)pivotFromParseObject:(PFObject *)parseObject {   
+- (Pivot *)pivotFromParseObject:(PFObject *)parseObject {
     Pivot *pivot = [[Pivot alloc] initWithName:parseObject[kPivotNameKey] projects:parseObject[kPivotProjectsKey] jobTitle:parseObject[kPivotJobKey]];
     return pivot;
 }

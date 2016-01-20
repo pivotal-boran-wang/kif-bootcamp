@@ -17,11 +17,24 @@
 		3D6BAE9A1C29B4AD008AAF0A /* DetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D6BAE971C29B4AD008AAF0A /* DetailsViewController.m */; };
 		3D6BAEA41C32EAFA008AAF0A /* BootcampTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D6BAEA21C32EAFA008AAF0A /* BootcampTableViewController.m */; };
 		3D6BAEA51C32EAFA008AAF0A /* BootcampTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D6BAEA31C32EAFA008AAF0A /* BootcampTableViewController.xib */; };
+		4DEC210E3B50DC2C2F64F2BE /* libPods-KIFBootcampTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 217287BB3625348F006B8BC3 /* libPods-KIFBootcampTests.a */; };
+		AE5EE7A01C50205B007C4AC4 /* KIFBootcampTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AE5EE79F1C50205B007C4AC4 /* KIFBootcampTests.m */; };
 		D2787351B732A525FF89B2D9 /* libPods-KIFBootcamp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1012512934A4CC3F4D0DE878 /* libPods-KIFBootcamp.a */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		AE5EE7A21C50205B007C4AC4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3D6BAE5D1C288446008AAF0A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3D6BAE641C288447008AAF0A;
+			remoteInfo = KIFBootcamp;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
 		1012512934A4CC3F4D0DE878 /* libPods-KIFBootcamp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KIFBootcamp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		217287BB3625348F006B8BC3 /* libPods-KIFBootcampTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KIFBootcampTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		34952CD47290F1B182E2D9F0 /* Pods-KIFBootcamp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KIFBootcamp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KIFBootcamp/Pods-KIFBootcamp.debug.xcconfig"; sourceTree = "<group>"; };
 		3D6BAE651C288447008AAF0A /* KIFBootcamp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KIFBootcamp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D6BAE691C288447008AAF0A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -41,6 +54,11 @@
 		3D6BAEA21C32EAFA008AAF0A /* BootcampTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BootcampTableViewController.m; sourceTree = "<group>"; };
 		3D6BAEA31C32EAFA008AAF0A /* BootcampTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BootcampTableViewController.xib; sourceTree = "<group>"; };
 		9039783EDFE37AABE8B9A952 /* Pods-KIFBootcamp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KIFBootcamp.release.xcconfig"; path = "Pods/Target Support Files/Pods-KIFBootcamp/Pods-KIFBootcamp.release.xcconfig"; sourceTree = "<group>"; };
+		AE5EE79D1C50205B007C4AC4 /* KIFBootcampTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KIFBootcampTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE5EE79F1C50205B007C4AC4 /* KIFBootcampTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KIFBootcampTests.m; sourceTree = "<group>"; };
+		AE5EE7A11C50205B007C4AC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B85C680840CC7747959AEEA1 /* Pods-KIFBootcampTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KIFBootcampTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-KIFBootcampTests/Pods-KIFBootcampTests.release.xcconfig"; sourceTree = "<group>"; };
+		F9FEF72A898DA163FBE98B81 /* Pods-KIFBootcampTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KIFBootcampTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KIFBootcampTests/Pods-KIFBootcampTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +70,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		AE5EE79A1C50205B007C4AC4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DEC210E3B50DC2C2F64F2BE /* libPods-KIFBootcampTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -59,6 +85,7 @@
 			isa = PBXGroup;
 			children = (
 				1012512934A4CC3F4D0DE878 /* libPods-KIFBootcamp.a */,
+				217287BB3625348F006B8BC3 /* libPods-KIFBootcampTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -67,6 +94,7 @@
 			isa = PBXGroup;
 			children = (
 				3D6BAE671C288447008AAF0A /* KIFBootcamp */,
+				AE5EE79E1C50205B007C4AC4 /* KIFBootcampTests */,
 				3D6BAE661C288447008AAF0A /* Products */,
 				B9723674A632DAB759C1E815 /* Pods */,
 				34F27DF5B6CF485FF24BBA7A /* Frameworks */,
@@ -77,6 +105,7 @@
 			isa = PBXGroup;
 			children = (
 				3D6BAE651C288447008AAF0A /* KIFBootcamp.app */,
+				AE5EE79D1C50205B007C4AC4 /* KIFBootcampTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -121,11 +150,22 @@
 			path = ..;
 			sourceTree = "<group>";
 		};
+		AE5EE79E1C50205B007C4AC4 /* KIFBootcampTests */ = {
+			isa = PBXGroup;
+			children = (
+				AE5EE79F1C50205B007C4AC4 /* KIFBootcampTests.m */,
+				AE5EE7A11C50205B007C4AC4 /* Info.plist */,
+			);
+			path = KIFBootcampTests;
+			sourceTree = "<group>";
+		};
 		B9723674A632DAB759C1E815 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
 				34952CD47290F1B182E2D9F0 /* Pods-KIFBootcamp.debug.xcconfig */,
 				9039783EDFE37AABE8B9A952 /* Pods-KIFBootcamp.release.xcconfig */,
+				F9FEF72A898DA163FBE98B81 /* Pods-KIFBootcampTests.debug.xcconfig */,
+				B85C680840CC7747959AEEA1 /* Pods-KIFBootcampTests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -153,6 +193,27 @@
 			productReference = 3D6BAE651C288447008AAF0A /* KIFBootcamp.app */;
 			productType = "com.apple.product-type.application";
 		};
+		AE5EE79C1C50205B007C4AC4 /* KIFBootcampTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE5EE7A61C50205B007C4AC4 /* Build configuration list for PBXNativeTarget "KIFBootcampTests" */;
+			buildPhases = (
+				C447FB8CC15E34C99E8793F7 /* Check Pods Manifest.lock */,
+				AE5EE7991C50205B007C4AC4 /* Sources */,
+				AE5EE79A1C50205B007C4AC4 /* Frameworks */,
+				AE5EE79B1C50205B007C4AC4 /* Resources */,
+				9AAA33790A9615076470E3A4 /* Embed Pods Frameworks */,
+				8A5E5B24CC4E7E494F05A0B4 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AE5EE7A31C50205B007C4AC4 /* PBXTargetDependency */,
+			);
+			name = KIFBootcampTests;
+			productName = KIFBootcampTests;
+			productReference = AE5EE79D1C50205B007C4AC4 /* KIFBootcampTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -164,6 +225,10 @@
 				TargetAttributes = {
 					3D6BAE641C288447008AAF0A = {
 						CreatedOnToolsVersion = 7.1;
+					};
+					AE5EE79C1C50205B007C4AC4 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 3D6BAE641C288447008AAF0A;
 					};
 				};
 			};
@@ -181,6 +246,7 @@
 			projectRoot = "";
 			targets = (
 				3D6BAE641C288447008AAF0A /* KIFBootcamp */,
+				AE5EE79C1C50205B007C4AC4 /* KIFBootcampTests */,
 			);
 		};
 /* End PBXProject section */
@@ -194,6 +260,13 @@
 				3D6BAE991C29B4AD008AAF0A /* DetailsViewController.xib in Resources */,
 				3D6BAE781C288447008AAF0A /* LaunchScreen.storyboard in Resources */,
 				3D6BAE751C288447008AAF0A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE5EE79B1C50205B007C4AC4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -215,6 +288,36 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KIFBootcamp/Pods-KIFBootcamp-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		8A5E5B24CC4E7E494F05A0B4 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KIFBootcampTests/Pods-KIFBootcampTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9AAA33790A9615076470E3A4 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KIFBootcampTests/Pods-KIFBootcampTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		9B1F7A3D8080BCB7677876AF /* Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -228,6 +331,21 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KIFBootcamp/Pods-KIFBootcamp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C447FB8CC15E34C99E8793F7 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		EC2D30AC486734297E39C7FE /* Check Pods Manifest.lock */ = {
@@ -261,7 +379,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		AE5EE7991C50205B007C4AC4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE5EE7A01C50205B007C4AC4 /* KIFBootcampTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AE5EE7A31C50205B007C4AC4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3D6BAE641C288447008AAF0A /* KIFBootcamp */;
+			targetProxy = AE5EE7A21C50205B007C4AC4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		3D6BAE761C288447008AAF0A /* LaunchScreen.storyboard */ = {
@@ -311,7 +445,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -348,7 +482,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -379,6 +513,34 @@
 			};
 			name = Release;
 		};
+		AE5EE7A41C50205B007C4AC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F9FEF72A898DA163FBE98B81 /* Pods-KIFBootcampTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/KIFBootcamp.app/KIFBootcamp";
+				INFOPLIST_FILE = KIFBootcampTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = pivotal.KIFBootcampTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		AE5EE7A51C50205B007C4AC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B85C680840CC7747959AEEA1 /* Pods-KIFBootcampTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/KIFBootcamp.app/KIFBootcamp";
+				INFOPLIST_FILE = KIFBootcampTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = pivotal.KIFBootcampTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -396,6 +558,15 @@
 			buildConfigurations = (
 				3D6BAE7D1C288447008AAF0A /* Debug */,
 				3D6BAE7E1C288447008AAF0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE5EE7A61C50205B007C4AC4 /* Build configuration list for PBXNativeTarget "KIFBootcampTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE5EE7A41C50205B007C4AC4 /* Debug */,
+				AE5EE7A51C50205B007C4AC4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
