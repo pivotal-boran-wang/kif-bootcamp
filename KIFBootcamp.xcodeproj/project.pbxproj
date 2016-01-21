@@ -19,6 +19,9 @@
 		3D6BAEA51C32EAFA008AAF0A /* BootcampTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D6BAEA31C32EAFA008AAF0A /* BootcampTableViewController.xib */; };
 		4DEC210E3B50DC2C2F64F2BE /* libPods-KIFBootcampTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 217287BB3625348F006B8BC3 /* libPods-KIFBootcampTests.a */; };
 		AE5EE7A01C50205B007C4AC4 /* KIFBootcampTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AE5EE79F1C50205B007C4AC4 /* KIFBootcampTests.m */; };
+		AECD0D481C516F5400C2EF54 /* NTest.m in Sources */ = {isa = PBXBuildFile; fileRef = AECD0D471C516F5400C2EF54 /* NTest.m */; settings = {ASSET_TAGS = (); }; };
+		AEF3ACF11C517B13008F7E85 /* Respoinse.json in Resources */ = {isa = PBXBuildFile; fileRef = AEF3ACF01C517B13008F7E85 /* Respoinse.json */; settings = {ASSET_TAGS = (); }; };
+		C460E80209B69D0D9C34B32D /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D83DCF0E01C4265243643897 /* libPods.a */; };
 		D2787351B732A525FF89B2D9 /* libPods-KIFBootcamp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1012512934A4CC3F4D0DE878 /* libPods-KIFBootcamp.a */; };
 /* End PBXBuildFile section */
 
@@ -57,7 +60,10 @@
 		AE5EE79D1C50205B007C4AC4 /* KIFBootcampTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KIFBootcampTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE5EE79F1C50205B007C4AC4 /* KIFBootcampTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KIFBootcampTests.m; sourceTree = "<group>"; };
 		AE5EE7A11C50205B007C4AC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AECD0D471C516F5400C2EF54 /* NTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NTest.m; sourceTree = "<group>"; };
+		AEF3ACF01C517B13008F7E85 /* Respoinse.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Respoinse.json; path = ../KIFBootcamp/Respoinse.json; sourceTree = "<group>"; };
 		B85C680840CC7747959AEEA1 /* Pods-KIFBootcampTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KIFBootcampTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-KIFBootcampTests/Pods-KIFBootcampTests.release.xcconfig"; sourceTree = "<group>"; };
+		D83DCF0E01C4265243643897 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9FEF72A898DA163FBE98B81 /* Pods-KIFBootcampTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KIFBootcampTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KIFBootcampTests/Pods-KIFBootcampTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -67,6 +73,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D2787351B732A525FF89B2D9 /* libPods-KIFBootcamp.a in Frameworks */,
+				C460E80209B69D0D9C34B32D /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,6 +93,7 @@
 			children = (
 				1012512934A4CC3F4D0DE878 /* libPods-KIFBootcamp.a */,
 				217287BB3625348F006B8BC3 /* libPods-KIFBootcampTests.a */,
+				D83DCF0E01C4265243643897 /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -154,6 +162,8 @@
 			isa = PBXGroup;
 			children = (
 				AE5EE79F1C50205B007C4AC4 /* KIFBootcampTests.m */,
+				AECD0D471C516F5400C2EF54 /* NTest.m */,
+				AEF3ACF01C517B13008F7E85 /* Respoinse.json */,
 				AE5EE7A11C50205B007C4AC4 /* Info.plist */,
 			);
 			path = KIFBootcampTests;
@@ -258,6 +268,7 @@
 			files = (
 				3D6BAEA51C32EAFA008AAF0A /* BootcampTableViewController.xib in Resources */,
 				3D6BAE991C29B4AD008AAF0A /* DetailsViewController.xib in Resources */,
+				AEF3ACF11C517B13008F7E85 /* Respoinse.json in Resources */,
 				3D6BAE781C288447008AAF0A /* LaunchScreen.storyboard in Resources */,
 				3D6BAE751C288447008AAF0A /* Assets.xcassets in Resources */,
 			);
@@ -330,7 +341,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KIFBootcamp/Pods-KIFBootcamp-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		C447FB8CC15E34C99E8793F7 /* Check Pods Manifest.lock */ = {
@@ -383,6 +394,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AECD0D481C516F5400C2EF54 /* NTest.m in Sources */,
 				AE5EE7A01C50205B007C4AC4 /* KIFBootcampTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

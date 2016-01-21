@@ -5,11 +5,13 @@
 //  Created by Pivotal on 2016-01-19.
 //  Copyright © 2016 PIvotal Labs. All rights reserved.
 //
+//
+//
+
 
 #import <XCTest/XCTest.h>
 #import <KIF/KIF.h>
 #import <UIKit/UIKit.h>
-
 
 @interface KIFBootcampTests : KIFTestCase
 
@@ -33,7 +35,6 @@
 - (void)testCase00 {
     [tester waitForTimeInterval:1];
 }
-
 #pragma mark - Task #1: Exploring the KIF API
 - (void)testCase01 {
     
@@ -95,6 +96,7 @@
     [super tearDown];
     [tester waitForTimeInterval:3];
     NSLog(@"End of the test");
+
 }
 
 - (void)testCase03_1{
@@ -108,13 +110,20 @@
 }
 
 
-    
+
+/**
+#pragma mark - Task #4: Stubbing network requests
+
+
+-(void)it(@"should do something", ^){
+    stubRequest(@"GET", @"http://www.google.com");
+}
 
 
 
 
 
-/**- (void)testPerformanceExample {a
+- (void)testPerformanceExample {a
  // This is an example of a performance test case.
  [self measureBlock:^{
  // Put the code you want to measure the time of here.

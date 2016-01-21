@@ -1,0 +1,73 @@
+{
+    "results": [{
+                "createdAt": "2015-12-21T22:08:21.042Z",
+                "job_title": "KIF Automator",
+                "objectId": "uD8d20ySy6",
+                "pivot_name": "Gordon Krull",
+                "projects_leading": 3,
+                "updatedAt": "2015-12-29T16:59:25.035Z"
+                }, {
+                "createdAt": "2015-12-22T15:01:54.967Z",
+                "job_title": "Master of Inventory ",
+                "objectId": "hFJKMzKUwK",
+                "pivot_name": "Christopher Wong",
+                "projects_leading": 4,
+                "updatedAt": "2015-12-29T16:59:52.245Z"
+                }, {
+                "createdAt": "2015-12-22T15:02:04.396Z",
+                "job_title": "Ford ETT",
+                "objectId": "5SWrTc7FSh",
+                "pivot_name": "Matthew Leung",
+                "projects_leading": 1,
+                "updatedAt": "2015-12-29T17:00:16.673Z"
+                }, {
+                "createdAt": "2015-12-22T15:02:19.271Z",
+                "job_title": "Espresso Automator",
+                "objectId": "LsTokpSJJG",
+                "pivot_name": "Vladimir Kasatkin",
+                "projects_leading": 2,
+                "updatedAt": "2015-12-29T17:00:06.138Z"
+                }, {
+                "createdAt": "2015-12-22T15:02:33.598Z",
+                "job_title": "ETT Manager",
+                "objectId": "Ffa3F6kxBK",
+                "pivot_name": "Navdeep Pama",
+                "projects_leading": 5,
+                "updatedAt": "2015-12-29T17:00:20.927Z"
+                }, {
+                "createdAt": "2015-12-22T15:02:37.096Z",
+                "job_title": "ETT Manager",
+                "objectId": "eWXnC2HLnq",
+                "pivot_name": "Rodney Wong",
+                "projects_leading": 4,
+                "updatedAt": "2015-12-29T17:00:23.775Z"
+                }, {
+                "createdAt": "2015-12-22T15:03:09.908Z",
+                "job_title": "BMO",
+                "objectId": "zdefWrea9W",
+                "pivot_name": "Kyle Weltman",
+                "projects_leading": 2,
+                "updatedAt": "2015-12-29T17:00:25.770Z"
+                }, {
+                "createdAt": "2015-12-22T15:04:01.223Z",
+                "job_title": "Rails Developer",
+                "objectId": "PyWZQMhnwr",
+                "pivot_name": "Khurrum Abdul Mujeeb",
+                "projects_leading": 2,
+                "updatedAt": "2015-12-29T16:59:40.297Z"
+                }, {
+                "createdAt": "2015-12-22T15:04:26.158Z",
+                "job_title": "Agile Test Engineer",
+                "objectId": "kB8aWC6kJk",
+                "pivot_name": "Victor Wung",
+                "projects_leading": 8,
+                "updatedAt": "2015-12-29T16:59:03.146Z"
+                }, {
+                "createdAt": "2015-12-22T15:04:51.830Z",
+                "job_title": "New Hire",
+                "objectId": "xfV2Zc22Cc",
+                "pivot_name": "Nicholas Barron",
+                "projects_leading": 0,
+                "updatedAt": "2015-12-29T16:58:53.917Z"
+                }]
+}
